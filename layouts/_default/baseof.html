@@ -1,0 +1,15 @@
+ 
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+  {{ partial "head" . }}
+  
+  <body data-bodyTag class="body-tag {{ if in (print .URL) "blog"}}blog-page{{ end }}">
+   
+    {{ block "header" . }}{{ partial "nav" . }}{{ end }}
+
+    {{ block "main" . }}{{ end }}
+
+    {{ block "footer" . }}{{ partial "footer" . }}{{ end }}
+
+  </body>
+</html>
