@@ -1,0 +1,16 @@
+.dark-icon {
+    display: none;
+}
+
+.light-theme .dark-icon {
+    display: inline-block;
+}
+
+.light-theme .light-icon {
+    display: none;
+}
+
+.light-theme.body-tag {
+    color: $dark;
+    background-color: $light;
+}

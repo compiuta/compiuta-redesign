@@ -5,4 +5,5 @@
 .body-tag {
     background-color: $dark;
     color: $light;
+    transition: background-color, color .2s ease-in-out;
 }
