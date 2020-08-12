@@ -1,13 +1,44 @@
+.theme-toggle {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+    border-width: 0;
+    border-style: none;
+    border-color: transparent;
+    border-image: initial;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.theme-toggle:focus {
+    outline: none;
+}
+
+.theme-icon {
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
+
 .dark-icon {
-    display: none;
+    transition: right .2s ease-in-out;
+    right: 100%;
+}
+
+.light-icon {
+    transition: left .2s ease-in-out;
+    top: 0;
+    left: 0;
 }
 
 .light-theme .dark-icon {
-    display: inline-block;
+    right: 0;
 }
 
 .light-theme .light-icon {
-    display: none;
+    left: -100%;
 }
 
 .light-theme.body-tag {
