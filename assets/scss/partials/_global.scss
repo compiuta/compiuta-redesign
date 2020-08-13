@@ -6,4 +6,17 @@
     background-color: $dark;
     color: $light;
     transition: background-color, color .2s ease-in-out;
+    padding: 0;
+    margin: 0;
+}
+
+.layout-styled {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.divider {
+    width: 5px;
+    height: 100%;
+    background-color: $light;
 }
