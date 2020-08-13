@@ -1,0 +1,77 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.project-section {
+    width: 30%;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+.project {
+    display: flex;
+}
+
+.project-image-container {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.project-image-container.leaf {
+    background: $firstGradient;
+}
+
+.project-image-container.light-bulb {
+    background: $secondGradient;
+}
+
+.project-image-container.note {
+    background: $thirdGradient;
+}
+
+.project-image-container.dice {
+    background: $secondGradient;
+}
+
+.project-image-container.books {
+    background: $thirdGradient
+}
+
+.project-image-container.earth {
+    background: $firstGradient;
+}
+
+.project-image {
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.leaf .project-image {
+    background-image: url(/images/leaf.png);
+}
+
+.light-bulb .project-image {
+    background-image: url(/images/light-bulb.png);
+}
+
+.note .project-image {
+    background-image: url(/images/note.png);
+}
+
+.dice .project-image {
+    background-image: url(/images/dice.png);
+}
+
+.books .project-image {
+    background-image: url(/images/books.png);
+}
+
+.earth .project-image {
+    background-image: url(/images/earth.png);
+}
