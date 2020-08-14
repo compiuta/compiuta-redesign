@@ -1,22 +1,45 @@
 .projects-container {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0 -20px;
+    flex-direction: column;
 }
 
 .project-section {
-    width: 30%;
-    padding: 20px;
-    flex: 1 1 auto;
+    width: 50%;
 }
 
 .project {
     display: flex;
 }
 
+.description-container {
+    position: relative;
+    z-index: 1;
+}
+
+.project-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 150px;
+    letter-spacing: 1px;
+    margin: 0 0 0px 0;
+}
+
+.project-title-left {
+    margin-right: -100px;
+}
+
+.project-title-right {
+    margin-left: -100px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .project-image-container {
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     flex-shrink: 0;
 }
 
