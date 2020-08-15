@@ -19,5 +19,14 @@
 
 .align-end {
     align-self: flex-end;
-    margin-right: 170px;
+}
+
+.button-ghost {
+    color: $light;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px solid $light;
+    margin: 10px;
+    font-weight: bold;
 }
