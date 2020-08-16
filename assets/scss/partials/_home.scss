@@ -21,11 +21,10 @@
 }
 
 .description-container {
-    position: relative;
     z-index: 2;
     position: absolute;
     width: 100%;
-    top: 0;
+    top: 30px;
 }
 
 .project-title {
@@ -33,10 +32,19 @@
     font-size: 150px;
     letter-spacing: 1px;
     margin: 0;
+    line-height: 1.2;
 }
 
-.description-container.left {
+.left .description-container {
     left: -60%;
+}
+
+.left .overlay-header {
+    text-align: right;
+}
+
+.left .overlay-footer {
+    text-align: left;
 }
 
 .description-container.right {
