@@ -53,3 +53,10 @@
 .light-theme .project-title {
     text-shadow: 1px 1px 20px $light;
 }
+
+@media (max-width: 730px) {
+    .light-theme .project-title {
+        text-shadow: none;
+        color: $light;
+    }
+}

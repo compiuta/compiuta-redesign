@@ -7,6 +7,16 @@
     background-color: $highlight;
 }
 
+.web-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.svgicon {
+    fill: $highlight;
+}
+
 .footer-title {
     font-family: 'Playfair Display', serif;
     font-weight: normal;
@@ -26,6 +36,6 @@
 .line {
     display: inline-block;
     height: 2px;
-    width: 10px;
+    width: 30px;
     background-color: $neutral;
 }
