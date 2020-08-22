@@ -22,22 +22,22 @@
     position: absolute;
 }
 
-.dark-icon {
+.light-icon {
     transition: right .2s ease-in-out;
     right: 100%;
 }
 
-.light-icon {
+.dark-icon {
     transition: left .2s ease-in-out;
     top: 0;
     left: 0;
 }
 
-.light-theme .dark-icon {
+.light-theme .light-icon {
     right: 0;
 }
 
-.light-theme .light-icon {
+.light-theme .dark-icon {
     left: -100%;
 }
 
@@ -52,6 +52,14 @@
 
 .light-theme .project-title {
     text-shadow: 1px 1px 20px $light;
+}
+
+.light-theme .svgicon {
+    fill: $magenta;
+}
+
+.light-theme .circle {
+    background-color: $magenta;
 }
 
 @media (max-width: 730px) {
