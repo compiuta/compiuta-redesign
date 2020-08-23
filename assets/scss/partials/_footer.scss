@@ -5,12 +5,21 @@
     height: 20px;
     width: 20px;
     background-color: $highlight;
+    color: $dark;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .web-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.web-icon-link {
+    text-decoration: none;
 }
 
 .svgicon {
